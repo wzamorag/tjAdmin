@@ -1,0 +1,33 @@
+pagina,nombre,roles,icono,menu_padre
+inicio.py,1-Inicio,6|1,home,admin
+inicio.py,Inicio,1,home,Inicio
+ordenes.py,Orden,6|2|1,account_balance,admin    
+pages/paginaCompras.py,2-Administracion,6|2|1,shopping_cart,admin
+pages/menuReporte.py,4-Reportes,6|1,history,admin
+ordenes_menu.py,3-Ordenes,6|5|4|3|2|1,shopping_cart,admin
+pages/paginaPersonal.py,Personal,personal,group,2-Administracion
+pages/paginaVentas.py,Ventas,ventas|comercial,sell,4-Reportes
+pages/usuarios.py,Usuarios,6|1,person,2-Administracion
+pages/logs.py,Logs,1,settings,4-Reportes
+pages/menu.py,Menu,6|1,menu,1-Inicio
+pages/platos.py,Platos,6|1,restaurant_menu,1-Inicio
+pages/ingredientes.py,Ingredientes,6|1,restaurant_menu,1-Inicio
+pages/mesas.py,Mesa,1,table_restaurant,1-Inicio
+pages/proveedores.py,Proveedores,6|1,group,2-Administracion
+pages/compras.py,Compras,6|1,shopping_cart,2-Administracion
+pages/plato_ingrediente.py,Productos Ventas,6|1,sell,1-Inicio
+pages/inventario.py,Inventario,1,inventory,2-Administracion
+pages/cobros.py,Cobros,2|1,attach_money,3-Ordenes
+pages/restaurant_main.py,Menu Restaurante,6|3,shopping_cart,3-Ordenes
+pages/cierre.py,CierreZ,2|1,local_cafe,2-Administracion
+pages/cierreX.py,CierreX,2|1,local_pizza,2-Administracion
+pages/reportes.py,Reportes,6|1,history,4-Reportes
+pages/bar.py,Barra,6|4|1,notifications,3-Ordenes
+pages/cocina.py,Cocina,6|5|1,notifications,3-Ordenes
+pages/monitor_ordenes.py,Monitor de Ordenes,6|1,receipt,4-Reportes
+pages/ordenes_activas.py,Ordenes Activas,6|3,history,3-Ordenes
+pages/promociones.py,Promociones,6|1,history,1-Inicio
+pages/menu_clientes.py,Menú Clientes,3,history,1-Inicio
+pages/monitor_meseros.py,Monitor de Meseros,6|1,dashboard,4-Reportes
+pages/gestionar_anulaciones.py,Gestión de Anulaciones,6|1,dashboard,3-Ordenes
+pages/configuracion.py,Configuración,6|1,settings,2-Administracion

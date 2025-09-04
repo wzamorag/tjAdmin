@@ -1,0 +1,5 @@
+/* style.css */
+.compact-hr {
+    border-top: 1px solid rgba(49, 51, 63, 0.2); /* Streamlit's default hr color */
+    margin: 5px 0; /* Ajusta este valor para controlar el espaciado */
+}
